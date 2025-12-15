@@ -1,0 +1,13 @@
+:root {
+  --font-size: 16px;
+  --font-family-heading: 'Eras Light ITC', 'Futura', sans-serif;
+  --font-family-body: 'Brown Sugar', 'League Spartan', sans-serif;
+  --background: #ffffff;
+  --foreground: oklch(0.145 0 0);
+}
+
+/* Dark mode */
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+}
